@@ -42,4 +42,4 @@ def cachipun():
             print('El computador hizo papel.\n Has ganado :)')
             termino = True
 
-    print('Empate, ¡sigue jugando!')
+        print('Empate, ¡sigue jugando!')

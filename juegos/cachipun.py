@@ -19,27 +19,28 @@ def cachipun():
 
 
         if user == 'piedra' and compu == 'papel':
-            print('El computador hizo papel.\n Has perdido :(')
+            print('El computador hizo papel.\nHas perdido :(')
             termino = True
 
         elif user == 'piedra' and compu == 'tijera':
-            print('El computador hizo tijera.\n Has ganado :)')
+            print('El computador hizo tijera.\nHas ganado :)')
             termino = True
 
         elif user == 'papel' and compu == 'tijera':
-            print('El computador hizo tijera.\n Has perdido :(')
+            print('El computador hizo tijera.\nHas perdido :(')
             termino = True
 
         elif user == 'papel' and compu == 'piedra':
-            print('El computador hizo piedra.\n Has ganado :)')
+            print('El computador hizo piedra.\nHas ganado :)')
             termino = True
 
         elif user == 'tijera' and compu == 'piedra':
-            print('El computador hizo piedra.\n Has perdido :(')
+            print('El computador hizo piedra.\nHas perdido :(')
             termino = True
 
         elif user == 'tijera' and compu == 'papel':
-            print('El computador hizo papel.\n Has ganado :)')
+            print('El computador hizo papel.\nHas ganado :)')
             termino = True
 
-        print('Empate, ¡sigue jugando!')
+        else:
+            print('Empate, ¡sigue jugando!')
